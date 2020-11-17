@@ -1,0 +1,27 @@
+/* All the stylesheet is in pt-br because i'm brazillian... goodbye strangers! :)
+/* Zerando estilos padronizados */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+/* Corpo do site */
+body{
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(243, 243, 243);
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+/* Div principal */
+.instagram_wrapper{
+	display: flex;
+	align-items: center;
+}
